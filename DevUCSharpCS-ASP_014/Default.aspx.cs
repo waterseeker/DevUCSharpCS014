@@ -35,7 +35,6 @@ namespace DevUCSharpCS_ASP_014
             DateTime myValue = new DateTime(1969, 12, 7, 6, 30, 0);
             //year, month, day, hour, minute, second
             resultLabel.Text = myValue.ToLongDateString();
-
         }
     }
 }
