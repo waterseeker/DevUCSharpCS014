@@ -17,6 +17,7 @@ namespace DevUCSharpCS_ASP_014
         protected void okButton_Click(object sender, EventArgs e)
         {
             DateTime myValue = DateTime.Now;
+            resultLabel.Text = myValue.ToString();
         }
     }
 }
